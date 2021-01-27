@@ -1,0 +1,27 @@
+.about {
+  position: relative;
+  height: 655px;
+  padding: $desktopMainPadding;
+  padding-top: 160px;
+
+  &__text {
+    position: absolute;
+    width: 635px;
+    background-color: $white;
+    left: 51%;
+    top: 54%;
+    padding: 5.9375rem;
+
+    > h1 {
+      margin: 0 0 30px;
+      text-transform: uppercase;
+      font-size: 2.9375rem;
+    }
+
+    > p {
+      font-family: 'Alata', sans-serif;
+      color: $darkGray;
+      font-size: 0.9375rem;
+    }
+  }
+}
